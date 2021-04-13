@@ -707,4 +707,37 @@ Wire Wire Line
 Connection ~ 8250 4850
 Wire Wire Line
 	8250 4850 8300 4850
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 607C8551
+P 10100 4300
+F 0 "FID1" H 10185 4347 50  0000 L CNN
+F 1 "Fiducial" H 10185 4254 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask4.5mm" H 10100 4300 50  0001 C CNN
+F 3 "~" H 10100 4300 50  0001 C CNN
+	1    10100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 607C893F
+P 10100 4600
+F 0 "FID2" H 10185 4647 50  0000 L CNN
+F 1 "Fiducial" H 10185 4554 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask4.5mm" H 10100 4600 50  0001 C CNN
+F 3 "~" H 10100 4600 50  0001 C CNN
+	1    10100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 607C95B1
+P 10100 4850
+F 0 "FID3" H 10185 4897 50  0000 L CNN
+F 1 "Fiducial" H 10185 4804 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask4.5mm" H 10100 4850 50  0001 C CNN
+F 3 "~" H 10100 4850 50  0001 C CNN
+	1    10100 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "MEDIDOR DE CORRIENTE RMS")
+    (date 2021-04-13)
+    (company "Ing. Milton Eduardo Sosa")
+    (comment 1 "OHL Licence")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -35,6 +42,8 @@
 
   (setup
     (last_trace_width 0.25)
+    (user_trace_width 0.25)
+    (user_trace_width 2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -43,6 +52,7 @@
     (via_drill 0.4)
     (via_min_size 0.4)
     (via_min_drill 0.3)
+    (user_via 0.8 0.4)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -1278,7 +1288,7 @@
   (gr_text "MEDIDOR DE CORRIENTE RMS V1.0\nCESE - 2021\nHECHO EN ARGENTINA\n" (at 135 120) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "NOTAS AL FABRICANTE\n" (at 180 70) (layer Dwgs.User)
+  (gr_text "NOTAS AL FABRICANTE\nVIAS: 0.8mm \nVIA DRILL: 0.4mm\nPISTAS: 0.25mm Y 2 mm\n" (at 180 70) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension 55 (width 0.15) (layer Dwgs.User)
@@ -1408,7 +1418,7 @@
   (segment (start 117.27 65.7) (end 109.845 58.275) (width 2) (layer F.Cu) (net 15))
   (segment (start 131.88 65.7) (end 117.27 65.7) (width 2) (layer F.Cu) (net 15))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 6075ED77) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1780,7 +1790,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 6075ED74) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
