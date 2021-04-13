@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Medidor de corriente RMS"
-Date ""
+Date "2021-04-13"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Ing. Milton Eduardo Sosa"
+Comment1 "OHL License"
 Comment2 ""
 Comment3 ""
 Comment4 ""

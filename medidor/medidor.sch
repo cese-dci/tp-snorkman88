@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Medidor de corriente RMS"
 Date "2021-04-13"
-Rev ""
+Rev "Ing. Pablo Severini"
 Comp "Ing. Milton Eduardo Sosa"
 Comment1 "OHL License"
 Comment2 ""

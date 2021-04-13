@@ -13,6 +13,7 @@
   (title_block
     (title "MEDIDOR DE CORRIENTE RMS")
     (date 2021-04-13)
+    (rev "Ing. Pablo Severini")
     (company "Ing. Milton Eduardo Sosa")
     (comment 1 "OHL Licence")
   )
