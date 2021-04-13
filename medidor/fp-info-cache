@@ -1,4 +1,4 @@
-2029983602735217
+2042576819072018
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -2750,6 +2750,62 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Fiducial
+Fiducial_0.5mm_Mask1.5mm
+Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.5mm_Mask1mm
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.75mm_Mask1.5mm
+Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_0.75mm_Mask2.25mm
+Circular Fiducial, 0.75mm bare copper, 2.25mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1.5mm_Mask3mm
+Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1.5mm_Mask4.5mm
+Circular Fiducial, 1.5mm bare copper, 4.5mm soldermask opening
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1mm_Mask2mm
+Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)
+fiducial
+0
+1
+0
+Fiducial
+Fiducial_1mm_Mask3mm
+Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
+fiducial
+0
+1
+0
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
