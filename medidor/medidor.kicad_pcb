@@ -1275,7 +1275,7 @@
     )
   )
 
-  (gr_text "MEDIDOR DE CORRIENTE RMS\nCESE - 2021\n" (at 135 120) (layer F.SilkS)
+  (gr_text "MEDIDOR DE CORRIENTE RMS V1.0\nCESE - 2021\nHECHO EN ARGENTINA\n" (at 135 120) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "NOTAS AL FABRICANTE\n" (at 180 70) (layer Dwgs.User)
@@ -1338,7 +1338,7 @@
   (segment (start 122.2 86.575) (end 123.225 87.6) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 122.2 82.6) (end 122.2 86.575) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 133.905 104.045) (end 135.55 102.4) (width 0.25) (layer F.Cu) (net 3))
-  (via (at 135.55 102.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
+  (via (at 135.55 102.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (status 1000000))
   (segment (start 133.905 104.85) (end 133.905 104.045) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 135.55 102.4) (end 126.15 93) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 126.15 93) (end 125.1 93) (width 0.25) (layer B.Cu) (net 3))
